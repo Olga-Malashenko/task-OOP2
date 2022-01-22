@@ -1,7 +1,7 @@
 package ru.netology.domain;
 
 public class Post {
-    private int id;
+    private int id; // id поста
     private int ownerId;
     private boolean canPost;
 
@@ -25,7 +25,6 @@ public class Post {
     private boolean isPinned;
     private boolean markedAsAds;
     private boolean isFavorite;
-
 
     private Copyright copyright;
 
