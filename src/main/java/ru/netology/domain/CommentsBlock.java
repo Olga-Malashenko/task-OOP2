@@ -4,7 +4,10 @@ import javax.xml.crypto.Data;
 
 public class CommentsBlock {
     private boolean canComment;
+    private boolean groupsCanPost;
     private String outputSettings;
+    private boolean canClose;
+    private boolean canOpen;
 
     private class PublishedComment {
         private String commentatorsAvatar;
