@@ -9,6 +9,8 @@ public class Post {
     private PostsPreview postsPreview;
     private PostsStatistic postsStatistic;
 
+    private CommentsBlock commentsBlock;
+
     // + get/set for each;
 
 }
